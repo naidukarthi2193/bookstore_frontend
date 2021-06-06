@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3FEEE6;
+    padding: 10px;
+
+    position: sticky;
+	top: 0; /*keeping top 0 means it will stick to the top*/
+	z-index: 100; /*zindex means header will remain on top of all the things ie it is opaque*/
+	/* background-color: white; this will make sure header space is white as we scroll */
+
+
+}
+
+.navbar > h2{
+    font-weight: bold;
+    font-size: 35px;
+    color: coral;
+    font-family: baufra;
+}
+
+.navbar > button {
+    background-color: #3500D3; 
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    
+  }
