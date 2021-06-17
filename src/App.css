@@ -1,15 +1,10 @@
 *{
   margin: 0;
-  
+  padding: 0;
 
 }
 
-.app > h3{
-  font-size: 20px;
-  margin-left: 40px;
-  margin-top: 20px;
-}
-
-button{
-  cursor: pointer;
+.wrap-header{
+ 
+  background-color: seagreen;
 }
