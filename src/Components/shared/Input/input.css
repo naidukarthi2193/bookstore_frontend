@@ -1,0 +1,44 @@
+.form-control {
+    margin: 1rem 0;
+  }
+  
+  .form-control label,
+  .form-control input,
+  .form-control textarea {
+    display: block;
+  }
+  
+  .form-control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color:steelblue;
+    font-size:20px;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    width:50%;
+    height:30px;
+    border:none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+  }
+  
+  .form-control input:focus,
+  .form-control textarea:focus {
+    outline: none;
+
+  }
+  
+  .form-control--invalid label,
+  .form-control--invalid p {
+    color: red;
+    text-align: center;
+  }
+  
+  .form-control--invalid input,
+  .form-control--invalid textarea {
+    border-color: red;
+    background: #ffd1d1;
+  }
